@@ -15,8 +15,8 @@ titles = ['Original image', 'Averaging',
 
 images = [img, blur1, blur2, blur3, median]
 
-for i in range(5):
-    plt.subplot(3,2,i+1),plt.imshow(images[i], 'gray')
+for i in range(4):
+    plt.subplot(2,2,i+1),plt.imshow(images[i], 'gray')
     plt.title(titles[i])
     plt.xticks([]),plt.yticks([])
 plt.show()
